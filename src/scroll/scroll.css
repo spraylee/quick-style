@@ -1,0 +1,13 @@
+.scroll, .scroll-y {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-x {
+  overflow-y: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; 
+}
+.no-scroll {
+  overflow: hidden;
+}
