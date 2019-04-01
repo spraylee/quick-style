@@ -5,8 +5,8 @@ col, row,
 col-start(col), col-center, col-end, col-around, col-between, col-evenly, col-stretch
 row-start(row), row-center, row-end, row-around, row-between, row-evenly, col-stretch
 
-cross-center(default) cross-start cross-end cross-stretch
-lines-center lines-start lines-end lines-between lines-around lines-stretch(default)
+items-center(default) items-start items-end items-stretch
+content-center content-start content-end content-between content-around content-stretch(default)
 
 wrap, no-wrap
 
@@ -19,34 +19,34 @@ wrap, no-wrap
   flex-wrap: nowrap;
 }
 
-.cross-center {
+.items-center {
   align-items: center;
 }
-.cross-start {
+.items-start {
   align-items: flex-start;
 }
-.cross-end {
+.items-end {
   align-items: flex-end;
 }
-.cross-stretch {
+.items-stretch {
   align-items: stretch;
 }
 
-.lines-center {
+.content-center {
   align-content: center;
 }
-.lines-start {
+.content-start {
   align-content: flex-start;
 }
-.lines-end {
+.content-end {
   align-content: flex-end;
 }
-.lines-stretch {
+.content-stretch {
   align-content: stretch;
 }
-.lines-between {
+.content-between {
   align-content: space-between;
 }
-.lines-around {
+.content-around {
   align-content: space-around;
 }
